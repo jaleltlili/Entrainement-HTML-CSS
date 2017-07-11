@@ -5,6 +5,9 @@ body{
     width: 1170px;
     margin: auto;
 }
+.clearfix{
+    clear: both; 
+}
 .header .slider{
     background-color: #EEE;
     height: 600px;
@@ -61,4 +64,45 @@ body{
     float: right;
     text-align: left;
     width: 60%; 
+}
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 20px; 
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 200px;
+}
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden; 
+}
+.my-skills .skills,
+.my-skills .progress{
+    width: 50%;
+    float: left;
+}
+.resume{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
+}
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden; 
+}
+.my-education .main,
+.my-education .exp{
+    width: 50%;
+    float: left;
+}
+.testimonials{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
 }
