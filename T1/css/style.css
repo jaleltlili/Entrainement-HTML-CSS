@@ -1,0 +1,64 @@
+body{
+   
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.header .slider{
+    background-color: #EEE;
+    height: 600px;
+}
+.header .navbar{
+    background-color: #2B2B2B;
+    color: #FFF;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{
+   color: #597634;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px; 
+}
+.features{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    background-color: #DDD;
+    
+}
+.features .feat h2{
+    text-transform: uppercase; 
+}
+.about-me{
+    background-color: #F2F2F2;
+    overflow: hidden; 
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{
+    width: 100%;
+}
+.about-me .info{
+    float: right;
+    text-align: left;
+    width: 60%; 
+}
